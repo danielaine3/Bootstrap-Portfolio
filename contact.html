@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -12,13 +12,17 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+		<!--Font Awesome stylesheet-->
+
+		<script src="https://use.fontawesome.com/0d0858c68d.js"></script>
+
 		<!-- Bootstrap CSS -->
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 	</head>
 
-	<body style="background-image: url('assets/images/regal/regal.png')";>
+	<body style="background-image: url('assets/images/regal/regal.png')">
 
 		<!--Navigation-->
 
@@ -64,7 +68,8 @@
 
 		</nav>
 
-	<!--Main Content-->
+		<!--Main Content-->
+
 		<div class="container">
 
 			<section class="row justify-content-between">
@@ -79,7 +84,7 @@
 
 						<div class="form-group">
 
-							<label for="Name">
+							<label>
 								Name
 							</label>
 
@@ -89,35 +94,39 @@
 
 						<div class="form-group">
 
-							<label for="Email">
+							<label>
 								Email
 							</label>
 
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
 
 						</div>
 
 						<div class="form-group">
 
-							<label for="Message">
+							<label>
 								Message
 							</label>
 
-							<textarea type="text" class="form-control" id="message" rows="5"></textarea>
+							<textarea class="form-control" id="message" rows="5"></textarea>
 
 						</div>
 
-						<button type="submit" class="btn btn-info pl-3 pr-3 pt-2"><h5>
+						<h5><button type="submit" class="btn btn-info pl-3 pr-3 pt-2">
 							Submit
-						</h5></button>
+						</button></h5>
 
 					</form>
 
 				</div>
 
+				<!--Column between main content & sidebar-->
+
 				<div class="col-lg-1"></div>
 
-				<div class="card col-lg-3 mt-5 mb-5 pb-0">
+				<!--Sidebar-->
+
+				<div class="card col-lg-3 h-50 mt-5 mb-5 pb-4">
 
 					<div class="cardheader pt-3 text-center text-info">
 
@@ -129,15 +138,16 @@
 
 					<div class="cardbody">
 
-						<div class="row">
+						<div class="row text-center">
 
-							<img class="col-4 h-100 w-100" src="assets/images/github.png" alt="Github Logo" href="https://github.com/danielaine3">
+							<a href="https://github.com/danielaine3"><i class="col-4 text-muted fa fa-github-square fa-3x" aria-hidden="true"></i></a>
 
-							<img class="col-4 h-100 w-100" src="assets/images/linkedin.png" alt="Linkedin Logo" href="https://www.linkedin.com/in/dani-carter/">
+							<a href="https://www.linkedin.com/in/dani-carter/"><i class=" text-muted col-4 fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
 
-							<img class="col-4 h-100 w-100" src="assets/images/stackoverflow.png" alt="Stackoverflow Logo" href="https://stackoverflow.com/users/8793194/dani-carter">
+							<a href="https://stackoverflow.com/users/8793194/dani-carter"><i class="text-muted col-4 fa fa-stack-overflow fa-3x" aria-hidden="true"></i></a> 
 
 						</div>
+
 
 					</div>
 
@@ -146,6 +156,8 @@
 			</section>
 
 		</div>
+
+		<!--Footer-->
 
 		<footer class="row bg-secondary">
 
